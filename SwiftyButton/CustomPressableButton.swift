@@ -6,7 +6,8 @@
 //  Copyright © 2015 TakeScoop. All rights reserved.
 //
 
-import Foundation
+#if canImport(UIKit)
+import UIKit
 
 open class CustomPressableButton: PressableButton {
     
@@ -48,3 +49,5 @@ open class CustomPressableButton: PressableButton {
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[contentView]|", options: [], metrics: nil, views: ["contentView": contentView]))
     }
 }
+
+#endif

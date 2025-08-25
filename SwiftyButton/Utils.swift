@@ -6,6 +6,7 @@
 //  Copyright © 2015 Scoop. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 enum Utils {
@@ -89,3 +90,5 @@ enum Utils {
         return image ?? UIImage()
     }
 }
+
+#endif

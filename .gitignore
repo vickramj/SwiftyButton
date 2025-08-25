@@ -42,3 +42,6 @@ Pods/
 # Carthage/Checkouts
 
 Carthage/Build
+
+.build/
+.cache/
